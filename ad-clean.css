@@ -1,0 +1,10 @@
+/* Best-effort hiding of common ad containers; does not bypass iframe restrictions. */
+[id*="google_ads"], [id*="googleads"], [id*="ad-container"], [id*="ad_container"],
+[id^="ad_"], [id^="ads_"], [class*=" ad-container"], [class^="ad-container"],
+[class*=" ad-wrapper"], [class^="ad-wrapper"], [class*="advertisement"], [class*="advert-banner"],
+[class*="adsbygoogle"], ins.adsbygoogle, iframe[src*="doubleclick.net"], iframe[src*="googlesyndication.com"],
+iframe[src*="adservice.google"], iframe[id*="google_ads"], iframe[name*="google_ads"],
+[data-ad], [data-ad-slot], [aria-label="Advertisement"], [aria-label="advertisement"],
+.advertisement, .advertising, .ad-banner, .ad-wrapper, .ad-container, .ads-container, .adsbygoogle {
+  display: none !important; visibility: hidden !important; pointer-events: none !important;
+}
