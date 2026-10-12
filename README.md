@@ -18,8 +18,9 @@ Release build of the DuoSync browser extension. This project is separate from th
 2. Open `brave://extensions` and enable Developer mode.
 3. Click **Load unpacked** and select the `duosync-final-forma2` folder.
 4. On each video tab, open the DuoSync popup and click **Authorize this tab for capture**.
-5. Open DuoSync, select the tabs, and try **Direct video**. If it does not work, use **Capture tabs**.
-6. Enter the synchronization points and click **Sync**.
+5. **On each site's video page, click the site's own fullscreen button before loading/capturing that video in DuoSync** if you want it to appear fullscreen in the extension. DuoSync cannot always force the source site's player into fullscreen automatically.
+6. Open DuoSync, select the tabs, and try **Direct video**. If it does not work, use **Capture tabs**.
+7. Enter the synchronization points and click **Sync**.
 
 ## Shortcuts
 - `K`: play/pause both videos.
